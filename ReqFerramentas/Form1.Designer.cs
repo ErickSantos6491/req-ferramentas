@@ -64,6 +64,7 @@
             this.btnFerramentas.TabIndex = 2;
             this.btnFerramentas.Text = "Gerir Ferramentas";
             this.btnFerramentas.UseVisualStyleBackColor = true;
+            this.btnFerramentas.Click += new System.EventHandler(this.btnFerramentas_Click);
             // 
             // btnRequisicoes
             // 
